@@ -46,10 +46,10 @@ end
 debt_list = [
     ['AdviceGuide', "The Citizens' Advice Information Source", 'http://www.adviceguide.org.uk/debt_e', '03448487969'],
     ['Business Debtline', 'Dealing with business debts', 'http://www.bdl.org.uk', '08001976026'],
-    ['National Debtline', 'National Debtline', 'https://www.nationaldebtline.org/EW/Pages/default.aspx', '08088084000'],
+    ['National Debtline', 'National Debtline', 'http://www.nationaldebtline.org/EW/Pages/default.aspx', '08088084000'],
     ['Money Advice Service', 'Free money advice', 'http://www.moneyadviceservice.org.uk', '03005005000'],
     ['Insolvency Service', 'The government bankruptcy portal', 'http://www.gov.uk/government/organisations/insolvency-service', '03303310020'],
-    ['StepChange', 'StepChange', 'https://www.stepchange.org', '08001381111']
+    ['StepChange', 'StepChange', 'http://www.stepchange.org', '08001381111']
 ]
 
 debt_list.each do |name, description, link, phoneNumber|
