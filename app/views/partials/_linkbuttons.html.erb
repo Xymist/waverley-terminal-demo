@@ -1,0 +1,14 @@
+<div id="buttonmix">
+  <% @links.each do |adviser| %>
+      <div class="col-xs-3">
+        <a class="col-xs-12 btn btn-yellow" style="<%if adviser.phoneNumber%> height: 120px; margin-top: 10px <%else%> height:190px; margin-top:10px <%end%>" href="/iframer?link=<%=adviser.link%>">
+          <h1 style="<%if adviser.phoneNumber%> padding-top: 8px <%else%> padding-top: 35px <%end%>"><strong><%= adviser.name %></strong></h1>
+          <h5><strong><%= adviser.description %></h5>
+        </a>
+        <%if adviser.phoneNumber%>
+            <a class="col-xs-12 btn btn-yellow" style="height:60px; margin-top: 10px" href="<%=adviser.phoneNumber%>"><h2>Touch to call <%=adviser.phoneNumber%> free</h2></a>
+        <%end%>
+      </div>
+  <% end %>
+</div>
+

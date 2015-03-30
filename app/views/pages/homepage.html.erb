@@ -1,0 +1,10 @@
+<div id="buttonmix">
+  <% @links.each do |adviser| %>
+      <div class="col-xs-3" >
+          <a class="col-xs-12 btn btn-yellow" style="height: 190px; margin-top: 10px" href="<%= adviser.link%>">
+            <h1 style="padding-top: 35px"><strong><%= adviser.name %></strong></h1>
+            <h5><strong><%= adviser.description %></h5>
+          </a>
+      </div>
+  <% end %>
+</div>

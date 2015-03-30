@@ -1,0 +1,120 @@
+#frontslider .item img{
+    display: block;
+    width: 100%;
+}
+
+#frontslider{
+  position: relative;
+  width: 100%
+}
+#slidertext {
+   position:absolute; 
+   top: 5vw;
+   color: white;
+   text-align: center;
+   font-size: 2vw;
+   letter-spacing: -1px;  
+   padding: 10px;
+   z-index:5;
+}
+
+#lieslider{
+    width: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    background-image: -moz-linear-gradient(270deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    background-image: -o-linear-gradient(270deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    background-image: linear-gradient(180deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    text-align: center;
+    h3{
+      color: white;
+      font-size: 18px;
+    }
+}
+
+#featured-in{
+    width: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(204,204,204,1.00) 0%,rgba(192,192,192,1.00) 48.19%,rgba(204,204,204,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(204,204,204,1.00) 0%,rgba(192,192,192,1.00) 48.19%,rgba(204,204,204,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(204,204,204,1.00) 0%,rgba(192,192,192,1.00) 48.19%,rgba(204,204,204,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(204,204,204,1.00) 0%,rgba(192,192,192,1.00) 48.19%,rgba(204,204,204,1.00) 100%);
+    bottom: 10px;
+    text-align: center;
+}
+
+#call-to-action{
+    width: 100%;
+    background-image: -webkit-linear-gradient(270deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    background-image: -moz-linear-gradient(270deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    background-image: -o-linear-gradient(270deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    background-image: linear-gradient(180deg,rgba(118,195,118,1.00) 0%,rgba(92,184,92,1.00) 51.30%,rgba(118,195,118,1.00) 97.93%);
+    bottom: 10px;
+}
+
+.btn-pale-buffered{
+  top: 10px;
+  bottom: 10px;
+}
+
+.btn-top-buffered{
+  top: 75px;
+}
+
+#bookbuttonheader{
+  font-size: 16px;
+  margin-top: 5px;
+}
+#student_cta{
+  text-align: center;
+  .btn-success{
+    color: white;
+    font-size: 24px;
+  }
+}
+#student_services{
+  h4{
+    text-align: center;
+  }
+}
+
+.flashies-red{
+  color: red;
+  text-align: center;
+}
+
+.flashies-green{
+  color: green;
+  text-align: center;
+}
+
+#floatheader{
+  position: fixed;
+  width: 100%;
+  background: #FFFFFF;
+  z-index: 10
+}
+
+.featuredin:hover{
+  opacity: 0.5;
+}
+
+#BookNowPostcode{
+  h1{
+    text-align: center;
+  }
+  text-align: center;
+}
+
+#PostcodeInput,
+#PostcodeBookButton{
+  text-align: left;
+}
+
+#PostcodeInput{
+  padding-top: 3px;
+}
+#ContactForm{
+  .fields,
+  .actions{
+    border: none;
+  }
+}

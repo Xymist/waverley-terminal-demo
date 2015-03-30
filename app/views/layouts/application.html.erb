@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CAW Terminal Demo</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div class="container-fluid" style="padding-top: 20px; background-color: #edebeb">
+      <%= render 'partials/header'%>
+    </div>
+
+    <div class="container-fluid" style="height: 900px; background-color: #edebeb">
+      <%= yield %>
+    </div>
+
+    <div class="container-fluid" style="background-color: #edebeb">
+      <%= render 'partials/footer'%>
+    </div>
+</body>
+</html>

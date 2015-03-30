@@ -1,0 +1,41 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#buttonmix{
+  padding-top: 15px;
+  h1{
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+
+.btn-blue {
+  h1{
+    line-height: 30px;
+  }
+  h1, h2, h3, h4, h5, h6{
+    color: yellow;
+  }
+  background-image: linear-gradient(180deg, #0048ff 0%, #2000ff 100%);
+  color: yellow;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 10px;
+  margin: 5px;
+}
+
+.btn-yellow {
+  h1, h2, h3, h4, h5, h6{
+    color: blue;
+  }
+  background-image: linear-gradient(180deg, yellow 0%,rgba(255,215,0,1.00) 100%);
+  color: blue;
+  word-wrap: break-word;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 10px;
+}

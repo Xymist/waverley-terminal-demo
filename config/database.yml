@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: db/development-cabterm
+
+test:
+  <<: *default
+  database: db/test-cabterm
+
+production:
+  <<: *default
+  database: db/production-cabterm
