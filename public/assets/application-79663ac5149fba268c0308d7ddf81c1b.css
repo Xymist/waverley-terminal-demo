@@ -1,13 +1,13 @@
-@import url(global/bootstrap.min.css);
-@import url(global/style.css);
-@import url(global/foundation.css);
-@import url(global/normalize.css);
-@import url(global/app.css);
-@import url(global/bootstrap-theme.css);
-@import url(global/default.css);
-@import url(plugins/bootstrapValidator.css);
-@import url(plugins/plugins.css);
-@import url(plugins/line-icons.css);
+@import url(global/bootstrap.min.css.scss);
+@import url(global/style.css.scss);
+@import url(global/foundation.css.scss);
+@import url(global/normalize.css.scss);
+@import url(global/app.css.scss);
+@import url(global/bootstrap-theme.css.scss);
+@import url(global/default.css.scss);
+@import url(plugins/bootstrapValidator.css.scss);
+@import url(plugins/plugins.css.scss);
+@import url(plugins/line-icons.css.scss);
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
