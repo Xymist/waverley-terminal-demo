@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails cab-terminal: development" uuid="fbc116a7-5e39-4e52-9c9d-4cb7f469792f">
+      <schema-pattern>db/development-cabterm.*</schema-pattern>
+      <default-schemas>db/development-cabterm.*</default-schemas>
+    </data-source>
+    <data-source name="Rails cab-terminal: test" uuid="961664b3-dc4d-4623-a55a-cb89cb86cf65">
+      <schema-pattern>db/test-cabterm.*</schema-pattern>
+      <default-schemas>db/test-cabterm.*</default-schemas>
+    </data-source>
+    <data-source name="Rails cab-terminal: production" uuid="d8999895-b897-4662-8de6-eb738a6bf345">
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
