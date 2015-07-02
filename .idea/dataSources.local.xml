@@ -10,7 +10,8 @@
       <default-schemas>db/test-cabterm.*</default-schemas>
     </data-source>
     <data-source name="Rails cab-terminal: production" uuid="d8999895-b897-4662-8de6-eb738a6bf345">
-      <first-sync>true</first-sync>
+      <schema-pattern>db/production-cabterm.*</schema-pattern>
+      <default-schemas>db/production-cabterm.*</default-schemas>
     </data-source>
   </component>
 </project>
