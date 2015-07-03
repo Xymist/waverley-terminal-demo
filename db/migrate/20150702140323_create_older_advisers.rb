@@ -1,6 +1,6 @@
-class CreateGeneralAdvisers < ActiveRecord::Migration
+class CreateOlderAdvisers < ActiveRecord::Migration
   def change
-    create_table :general_advisers do |t|
+    create_table :older_advisers do |t|
       t.string :name
       t.string :description
       t.string :link

@@ -1,4 +1,6 @@
-Brief interface demo for CAW Waverley tender request. Incomplete database.
+The database here is incomplete. The document 'links_to_be_included.docx' lists all the currently known required links; this will change as the network firms up.
+
+Brief interface demo for CAW Waverley tender request.
 
 Requirements:
 PostgreSQL
@@ -14,3 +16,4 @@ Run:
 ~$rails s
 
 localhost:3000
+

@@ -1,6 +1,6 @@
-class CreateConsumerAdvisers < ActiveRecord::Migration
+class CreateAbuseAdvisers < ActiveRecord::Migration
   def change
-    create_table :consumer_advisers do |t|
+    create_table :abuse_advisers do |t|
       t.string :name
       t.string :description
       t.string :link
