@@ -1,9 +1,9 @@
-<div id="buttonmix">
+<div id="buttonmix-main">
   <% @links.each do |adviser| %>
       <div class="col-xs-4" >
           <a class="col-xs-12 btn btn-yellow" style="height: 230px; margin-top: 30px" href="<%= adviser.link%>">
-            <h1 style="padding-top: 35px; font-size: 45px;line-height: 50px;"><strong><%= adviser.name %></strong></h1>
-            <h5 style="font-size: 25px;line-height: 30px;"><strong><%= adviser.description %></h5>
+            <h1><strong><%= adviser.name %></strong></h1>
+            <h5><%= adviser.description %></h5>
           </a>
       </div>
   <% end %>
